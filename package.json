@@ -1,0 +1,21 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Jouji Yamanaka <jouji_yamanaka@evolveit.jp>",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "nodemon -L --inspect=127.0.0.1:9229 server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "nodemon": "^2.0.7"
+  }
+}
